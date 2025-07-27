@@ -10,7 +10,7 @@ export const TodoForm=({handleParent})=>{
         }
         const handleChange=(e)=>{
             const s=e.target.value;
-                if(s.length>22){
+                if(s && s.length>22){
                     setCheck(false);
                     return;
                 }

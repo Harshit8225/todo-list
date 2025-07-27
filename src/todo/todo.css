@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image:url(gradient.svg);
+    background-image:url('/gradient.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }

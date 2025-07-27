@@ -6,7 +6,7 @@ import { TodoDateTime } from "./TodoDateTime";
 export const Todo=()=>{
     const [task,setTask]=useState(()=>{
         const initial=localStorage.getItem("react-todo");
-        if(initial.length==0)return [];
+        if(!initial)return [];
         else return JSON.parse(initial);
     });
     const handleForm=(inputVal)=>{
