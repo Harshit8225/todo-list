@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image:url(gradient.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    color:white;
+    padding:1rem 0;
+    box-sizing: border-box;
+
+}
+h2{
+    margin:0.5rem 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+input{
+    height: 2.3rem;
+    width: 12rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius:0.5rem;
+    border: none;
+    padding:0 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing:1px;
+}
+.task-btn{
+    height: 2.3rem;
+    width: 5rem;
+    background-color: rgb(1, 1, 19);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    outline:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.task-btn:hover{
+    background-color: orange;
+}
+input:focus,
+input:active {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+p{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.pHide{
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem
+}
+.list{
+    color: black;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:2rem;
+    min-width: 17rem;
+}
+.items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    height: 2.5rem;
+}
+button{
+    border: none;
+    background: none;
+}
+.unordList{
+    height: 100%;
+    box-sizing: border-box;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 4rem;
+    gap:1rem;
+    box-sizing: border-box;
+    height: 2rem;
+    padding-top: 0.3rem ;
+}
+.delete{
+    color: red;
+    font-size: 1.5rem;
+}
+.add{
+    color: green;
+    font-size: 1.3rem;
+}
+.strike{
+    text-decoration:line-through;
+}
+.clear-btn{
+    font-size: 1rem;
+    height: 2.2rem;
+    width: 5.5rem;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.clear-btn:hover{
+    height:2.4rem;
+    width:5.8rem;
+    font-size:1.1rem;
+}
